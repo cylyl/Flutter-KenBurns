@@ -55,7 +55,7 @@ class GeneratedLocalizationsDelegate extends LocalizationsDelegate<S?> {
 
   @override
   Future<S?> load(Locale locale) {
-    final String lang = getLang(locale);
+    final String lang = getLang(locale)!;
     if (lang != null) {
       switch (lang) {
         case "en":
